@@ -1,0 +1,14 @@
+
+//method overloading
+class Test{
+public static void m1(Integer a){
+System.out.println("test");}
+public static void m1(Float b){
+System.out.println("test1");}
+public static void m1(Double a){
+System.out.println("test2");}
+
+class Demo{
+public static void main(String[] args){
+Test t=new Test();
+T.m1(10);}}
